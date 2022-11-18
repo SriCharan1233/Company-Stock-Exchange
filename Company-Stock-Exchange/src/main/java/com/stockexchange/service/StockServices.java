@@ -10,4 +10,8 @@ public interface StockServices {
   void saveCompanystocks(CompanyStocks companystocks);
   void deleteCompany(int companyID);
   Optional<CompanyStocks> getCompanySharesByID(int companyID);
-}
+  public int findlastid();
+      
+ 
+  }
+

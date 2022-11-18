@@ -9,7 +9,6 @@ import javax.persistence.Id;
 @Entity
 public class CompanyStocks {
     @Id
-    //@GeneratedValue(strategy = GenerationType.AUTO)
 	private int company_ID;
 	private String company_Name;
 	@Column(length = 50)

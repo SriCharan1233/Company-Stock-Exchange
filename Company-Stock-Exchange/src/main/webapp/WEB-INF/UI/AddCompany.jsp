@@ -23,7 +23,8 @@
 						<div class="form-group">
 							<label class="form-control-label" for="CompanyID">CompanyID</label>
 							<input type="number" class="form-control" id="CompanyID"
-								placeholder="Enter Company_ID" name="CompanyID" />
+								placeholder="Enter Company_ID" name="CompanyID" value=${Company_ID}
+								/>
 						</div>
 						<div class="form-group">
 							<label class="form-control-label" for="CompanyName">CompanyName</label>

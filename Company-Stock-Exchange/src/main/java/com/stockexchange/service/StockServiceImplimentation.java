@@ -39,6 +39,10 @@ public class StockServiceImplimentation implements StockServices {
 		// TODO Auto-generated method stub
 		return companyrepository.findById(companyID);
 	}
+   public int findlastid() {
+        
+        return (companyrepository.findlastid()+1);
+    }
 
 
 }

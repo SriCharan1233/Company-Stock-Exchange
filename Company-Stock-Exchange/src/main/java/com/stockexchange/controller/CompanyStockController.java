@@ -32,6 +32,7 @@ public class CompanyStockController {
 	public String NewCompanyForm(Model model) {
 		CompanyStocks companystocks = new CompanyStocks();
 		model.addAttribute("Company", companystocks);
+		model.addAttribute("Company_ID", stockservices.findlastid());
 		return "AddCompany";
 
 	}
