@@ -23,18 +23,18 @@
 						<div class="form-group">
 							<label class="form-control-label" for="CompanyID">CompanyID</label>
 							<input type="number" class="form-control" id="CompanyID"
-								placeholder="Enter Company_ID" name="CompanyID" value=${Company_ID}
+								placeholder="Enter Company_ID" name="CompanyID" readonly="readonly" value=${Company_ID}
 								/>
 						</div>
 						<div class="form-group">
 							<label class="form-control-label" for="CompanyName">CompanyName</label>
 							<input type="text" class="form-control" id="CompanyName"
-								placeholder="Enter CompanyName" name="CompanyName" />
+								placeholder="Enter CompanyName" name="CompanyName" required />
 						</div>
 						<div class="form-group">
 							<label class="form-control-label" for="SharePrice">SharePrice</label>
 							<input type="number" class="form-control" id="SharePrice"
-								placeholder="SharePrice" name="SharePrice" />
+								placeholder="SharePrice" name="SharePrice" required />
 						</div>
 						<hr />
 						<div class="text-center">
